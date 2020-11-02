@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gadget>
+  <name>Progress</name>
+  <namespace><!--_locComment_text="{Locked}"-->basil.baby</namespace>
+  <version><!--_locComment_text="{Locked}"-->1.0.0.0</version>
+  <author name="Basil Baby">
+      <!-- <logo src="logo.png"/> -->
+  </author>
+  <copyright><!--_locComment_text="{Locked}"-->© 2020</copyright>
+  <description>Calculate Progress</description>
+  <icons>
+    <icon height="48" width="48" src="icon.png"/>
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <autoscaleDPI><!--_locComment_text="{Locked}"-->true</autoscaleDPI>
+      <base type="html" apiVersion="1.0.0" src="progress.html"/>
+      <permissions><!--_locComment_text="{Locked}"-->full</permissions>
+      <platform minPlatformVersion="1.0"/>
+      <defaultImage src="drag.png"/>
+    </host>
+  </hosts>
+</gadget>
